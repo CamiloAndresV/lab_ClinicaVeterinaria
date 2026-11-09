@@ -1,0 +1,15 @@
+package VetCare;
+
+public class Ave extends Animal {
+    public double pesoGramos;
+
+    public Ave(String nombre, int edad, String nombreDueno, double pesoGramos) {
+        super(nombre, edad, nombreDueno);
+        this.pesoGramos = pesoGramos;
+    }
+
+    @Override
+    public double costoConsulta() {
+        return 28_000 + (100 * pesoGramos);
+    }
+}
