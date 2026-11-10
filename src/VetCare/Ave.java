@@ -1,7 +1,7 @@
 package VetCare;
 
 public class Ave extends Animal {
-    public double pesoGramos;
+    private double pesoGramos;
 
     public Ave(String nombre, int edad, String nombreDueno, double pesoGramos) {
         super(nombre, edad, nombreDueno);
