@@ -35,5 +35,8 @@ public class Main {
                     + " | Prima Anual: $" + elemento.calcularPrimaSeguro());
         }
 
+        Animal nuevoanimal = new Conejo("Julian", 3, "Carmenza");
+        nuevoanimal.imprimirFicha();
+
         };
     }
